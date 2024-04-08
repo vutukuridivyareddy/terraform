@@ -4,7 +4,7 @@ resource "aws_instance" "instance1" {
   key_name = "key-divya"
   instance_tenancy = "default" 
   tags = {
-    name = "terraform instance"
+    name = "terraforminstance"
   }
   
 }
